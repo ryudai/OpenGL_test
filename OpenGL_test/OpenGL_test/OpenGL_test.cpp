@@ -12,7 +12,8 @@
 void display()
 {
 	glClear(GL_COLOR_BUFFER_BIT);
-	glBegin(GL_LINE_LOOP);
+	glBegin(GL_QUADS);
+	glColor3d(0.0, 1.0, 1.0);
 	glVertex2d(-0.9, -0.9);
 	glVertex2d(0.9, -0.9);
 	glVertex2d(0.9, 0.9);
